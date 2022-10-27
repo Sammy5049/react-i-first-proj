@@ -1,24 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
+import  {Container} from 'react-bootstrap'
+import Homepage from './Component/Homepage';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className='d-flex align-items-center justify-content-center' style={{minHeight:'100vh'}} >
+      <Homepage />
+  
+    </Container>
   );
 }
 
