@@ -1,0 +1,14 @@
+ .foot-container {
+ padding: 0 80px;
+
+ }
+
+
+@media (max-width:800px) {
+ .foot-container {
+  flex-direction: column;
+  padding:0;
+
+ }
+ 
+}

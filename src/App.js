@@ -1,11 +1,13 @@
-import  {Container} from 'react-bootstrap'
+
+import Footer from './Component/Footer';
 import Homepage from './Component/Homepage';
 function App() {
   return (
-    <Container className='d-flex align-items-center justify-content-center' style={{minHeight:'100vh'}} >
+    <div style={{minHeight:'100vh'}} >
       <Homepage />
+      <Footer />
   
-    </Container>
+    </div>
   );
 }
 
