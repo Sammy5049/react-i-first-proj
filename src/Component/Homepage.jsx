@@ -96,7 +96,7 @@ const Homepage = () => {
       <br />
 
          <div className="links2">
-          <a style={{  textDecoration:'none', }} href="/https://training.zuri.team">
+          <a style={{  textDecoration:'none', }} target='_blank' href="https://training.zuri.team">
 
           <button id="btn_zuri" style={{ padding:'24px',  fontSize:'18px', fontFamily:'roboto', color:'#101828', lineHeight:'28px', textAlign:'center', fontWeight:500, fontStyle:'normal', }} >
         
@@ -110,7 +110,7 @@ const Homepage = () => {
 
 
         <div onMouseEnter={() => setDetails(!details)} onMouseLeave={() => setDetails(!details)}  style={{ position:'relative'}} className="links2">
-          <a style={{  textDecoration:'none', }} href="/https://books.zuri.team">
+          <a style={{  textDecoration:'none', }} target='_blank' href="https://books.zuri.team">
 
           <button  id="books" style={{ padding:'24px',  fontSize:'18px', fontFamily:'roboto', color:'#101828', lineHeight:'28px', textAlign:'center', fontWeight:500, fontStyle:'normal', }} >
         
@@ -120,7 +120,7 @@ const Homepage = () => {
           </a>
           {details && <p
           style={{position:'absolute', top:'70%', left:'30%', zIndex:'99', fontSize:'12px', fontFamily:'roboto',  backgroundColor:'black', color:'whitesmoke', padding:'10px', borderRadius:'10px'}}
-          >This where you find books about design and coding</p>}
+          > Handpicked books where you find books about design and coding offered by zuri and customized guides to help you grow and advance your tech careers.</p>}
 
    
       </div>
@@ -128,7 +128,7 @@ const Homepage = () => {
 
 
         <div onMouseEnter={() => setPython(!python)} onMouseLeave={() => setPython(!python)}   style={{ position:'relative'}} className="links2">
-          <a  style={{  textDecoration:'none', }} href="/https://books.zuri.team/python-for-beginners?dammy5049">
+          <a  style={{  textDecoration:'none', }} target='_blank' href="https://books.zuri.team/python-for-beginners?dammy5049">
 
           <button id="book_python"  style={{ padding:'24px',  fontSize:'18px', fontFamily:'roboto', color:'#101828', lineHeight:'28px', textAlign:'center', fontWeight:500, fontStyle:'normal', }} >
         
@@ -138,7 +138,7 @@ const Homepage = () => {
           </a>
            {python && <p
           style={{position:'absolute', top:'70%', left:'30%', zIndex:'99', fontSize:'12px', fontFamily:'roboto',  backgroundColor:'black', color:'whitesmoke', padding:'10px', borderRadius:'10px'}}
-          >This where you find books about python for beginners</p>}
+          >This Book gives you the tips & guidelines you need to create truly professional designs, by addressing errors that could you get you disqualified.</p>}
 
    
       </div>
@@ -146,7 +146,7 @@ const Homepage = () => {
 
 
         <div onMouseEnter={() => setPitch(!pitch)} onMouseLeave={() => setPitch(!pitch)} style={{ position:'relative'}} className="links2">
-          <a style={{  textDecoration:'none', }} href="/https://background.zuri.team">
+          <a style={{  textDecoration:'none', }} target='_blank' href="https://background.zuri.team">
 
           <button id="pitch" style={{ padding:'24px',  fontSize:'18px', fontFamily:'roboto', color:'#101828', lineHeight:'28px', textAlign:'center', fontWeight:500, fontStyle:'normal', }} >
         
@@ -164,7 +164,7 @@ const Homepage = () => {
 
 
         <div onMouseEnter={() => setFreeBooks(!freeBooks)} onMouseLeave={() => setFreeBooks(!freeBooks)} style={{ position:'relative'}} className="links2">
-          <a   style={{  textDecoration:'none', }} href="/https://books.zuri.team/design-rules">
+          <a   style={{  textDecoration:'none', }} target='_blank' href="https://books.zuri.team/design-rules">
 
           <button id="book_design" style={{ padding:'24px',  fontSize:'18px', fontFamily:'roboto', color:'#101828', lineHeight:'28px', textAlign:'center', fontWeight:500, fontStyle:'normal', }} >
         
@@ -174,7 +174,7 @@ const Homepage = () => {
           </a>
            {freeBooks && <p
           style={{position:'absolute', top:'70%', left:'30%', zIndex:'99', fontSize:'12px', fontFamily:'roboto',  backgroundColor:'black', color:'whitesmoke', padding:'10px', borderRadius:'10px'}}
-          > Here you find list free design books offered by zuri</p>}
+          > You get free design books here.</p>}
    
    
       </div>
