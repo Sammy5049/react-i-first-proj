@@ -72,7 +72,7 @@ const Homepage = () => {
        style={{display:'none', fontSize:'20px', fontFamily:'roboto', color:'#101828', lineHeight:'30px', textAlign:'center', fontWeight:700, fontStyle:'normal'}}
        >Damilola Samuel Adeola</h1>
       <br />
-        <br />
+      <br />
 
 {/* 
 
@@ -112,14 +112,14 @@ const Homepage = () => {
         <div onMouseEnter={() => setDetails(!details)} onMouseLeave={() => setDetails(!details)}  style={{ position:'relative'}} className="links2">
           <a style={{  textDecoration:'none', }} target='_blank' href="https://books.zuri.team">
 
-          <button  id="books" style={{ padding:'24px',  fontSize:'18px', fontFamily:'roboto', color:'#101828', lineHeight:'28px', textAlign:'center', fontWeight:500, fontStyle:'normal', }} >
+          <button  id="books" style={{ padding:'24px',  fontSize:'18px', fontFamily:'roboto', color:'#101828', lineHeight:'28px', textAlign:'center', fontWeight:500, fontStyle:'normal'}}>
         
           Zuri Books
            
           </button>
           </a>
           {details && <p
-          style={{position:'absolute', top:'70%', left:'30%', zIndex:'99', fontSize:'12px', fontFamily:'roboto',  backgroundColor:'black', color:'whitesmoke', padding:'10px', borderRadius:'10px'}}
+          style={{position:'absolute', top:'70%', left:0, right:0, zIndex:'99', fontSize:'12px', maxWidth:'600px', margin:'0 auto',fontFamily:'roboto',  backgroundColor:'black', color:'whitesmoke', padding:'10px', borderRadius:'10px'}}
           > Handpicked books where you find books about design and coding offered by zuri and customized guides to help you grow and advance your tech careers.</p>}
 
    
@@ -137,7 +137,7 @@ const Homepage = () => {
           </button>
           </a>
            {python && <p
-          style={{position:'absolute', top:'70%', left:'30%', zIndex:'99', fontSize:'12px', fontFamily:'roboto',  backgroundColor:'black', color:'whitesmoke', padding:'10px', borderRadius:'10px'}}
+          style={{position:'absolute', top:'70%', left:0, right:0, zIndex:'99', fontSize:'12px', maxWidth:'600px', margin:'0 auto', fontFamily:'roboto',  backgroundColor:'black', color:'whitesmoke', padding:'10px', borderRadius:'10px'}}
           >This Book gives you the tips & guidelines you need to create truly professional designs, by addressing errors that could you get you disqualified.</p>}
 
    
@@ -156,7 +156,7 @@ const Homepage = () => {
           </a>
           
            {pitch && <p
-          style={{position:'absolute', top:'70%', left:'30%', zIndex:'99', fontSize:'12px', fontFamily:'roboto',  backgroundColor:'black', color:'whitesmoke', padding:'10px', borderRadius:'10px'}}
+          style={{position:'absolute', top:'70%',left:0, right:0, zIndex:'99', fontSize:'12px', maxWidth:'600px', margin:'0 auto',fontFamily:'roboto',  backgroundColor:'black', color:'whitesmoke', padding:'10px', borderRadius:'10px'}}
           >We pitch service for running background checks on coders, you get accurate and reliable information from us</p>}
    
       </div>
@@ -173,7 +173,7 @@ const Homepage = () => {
           </button>
           </a>
            {freeBooks && <p
-          style={{position:'absolute', top:'70%', left:'30%', zIndex:'99', fontSize:'12px', fontFamily:'roboto',  backgroundColor:'black', color:'whitesmoke', padding:'10px', borderRadius:'10px'}}
+          style={{position:'absolute', top:'70%',left:0, right:0, zIndex:'99', fontSize:'12px', maxWidth:'600px', margin:'0 auto', fontFamily:'roboto',  backgroundColor:'black', color:'whitesmoke', padding:'10px', borderRadius:'10px'}}
           > You get free design books here.</p>}
    
    
